@@ -16,7 +16,14 @@ import streamlit as st
 # mp_face_detection = mp.solutions.face_detection
 # mp_drawing = mp.solutions.drawing_utils
 
+from webcam import webcam
 
+captured_image = webcam()
+if captured_image is None:
+    st.write("Waiting for capture...")
+else:
+    st.write("Got an image from the webcam:")
+    st.image(captured_image)
 
 
 
