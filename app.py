@@ -113,8 +113,12 @@
 
 import tempfile
 import streamlit as st
+import mediapipe as mp
 
 from webcam import webcam
+
+mp_face_detection = mp.solutions.face_detection
+mp_drawing = mp.solutions.drawing_utils
 
 st.title("Webcam capture component")
 
