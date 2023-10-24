@@ -111,6 +111,7 @@
 # if __name__ == '__main__':
 #     main()
 
+import tempfile
 import streamlit as st
 
 from webcam import webcam
