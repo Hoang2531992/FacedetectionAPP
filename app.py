@@ -11,8 +11,8 @@ DEMO_VIDEO = 'demo.mp4'
 
 
 #mediapipe inbuilt solutions 
-mp_face_detection = mp.solutions.face_detection
-mp_drawing = mp.solutions.drawing_utils
+#mp_face_detection = mp.solutions.face_detection
+#mp_drawing = mp.solutions.drawing_utils
 
 
 
