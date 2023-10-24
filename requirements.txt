@@ -3,3 +3,4 @@ streamlit==0.82.0
 mediapipe
 numpy==1.19.3
 Pillow==8.2.0
+streamlit-webcam-example
