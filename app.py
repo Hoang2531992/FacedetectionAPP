@@ -1,18 +1,18 @@
-#import cv2
-#import mediapipe as mp
+import cv2
+import mediapipe as mp
 
 import tempfile
 import streamlit as st
 
 
 #demo video 
-#DEMO_VIDEO = 'demo.mp4'
+DEMO_VIDEO = 'demo.mp4'
 
 
 
 #mediapipe inbuilt solutions 
-#mp_face_detection = mp.solutions.face_detection
-#mp_drawing = mp.solutions.drawing_utils
+mp_face_detection = mp.solutions.face_detection
+mp_drawing = mp.solutions.drawing_utils
 
 
 
