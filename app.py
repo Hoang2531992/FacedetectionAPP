@@ -114,7 +114,7 @@
 import tempfile
 import streamlit as st
 
-import cv2
+#import cv2
 import mediapipe as mp
 
 from webcam import webcam
